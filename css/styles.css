@@ -510,6 +510,11 @@ li.advantages-list-item {
     margin-bottom: 16px;
 }
 
+.footer-right {
+    margin-right: 80px;
+}
+
+
 .footer-list-social {
     display: flex;
     gap: 16px;
@@ -534,4 +539,71 @@ li.advantages-list-item {
 .fsocial-link-icon:hover,
 .fsocial-link-icon:focus {
     background-color: #31d0aa;
+}
+
+
+
+/* Subscribe area */
+.footer-subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-subscribe-area {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    outline: transparent;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-subscribe-footer {
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-style: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subscribe-footer:hover,
+.button-subscribe-footer:focus {
+    background-color: #404bbf;
+}
+
+.footer-icon-send {
+    fill: #fff;
+    margin-left: 16px;
 }
